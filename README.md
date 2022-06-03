@@ -23,7 +23,7 @@ How to Test:
    - make sure you had setup the config.json
 
 
-How to access: http://68.183.190.243:8080/kucingNFT/
+How to access: http://68.183.190.243:8083/
 
 ```
 CREATE DATABASES kucingnft;

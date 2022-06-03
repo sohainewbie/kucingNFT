@@ -1,7 +1,7 @@
 import os
 import json
 from app import app
-from flask import request
+from flask import request, Flask, render_template
 from app.models.trx import *
 from app.models.cats import *
 from web3 import Web3
@@ -17,10 +17,7 @@ headerConfig = {
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-	response = { 'code' : 200, 
-				 'name' : 'API Kucing NFT', 
-				 'version' : '1.0.0' }
-	return json.dumps(response), 200, headerConfig
+	return render_template('view/index.html')
 	
 
 @app.route('/api/cats/<string:tokenID>', methods=['GET'])
