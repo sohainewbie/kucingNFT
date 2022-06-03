@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.6/web3.min.js"
+    integrity="sha512-jMEcX0Bev3VsCrACqEM3BFZvAMFXJSuTsMu0SttkAdMjquip6p3Oty5bbXrfg4T8n4g5BQYkGKxzLsrSqQgLUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div>
+        <h1>Sample NFT Claim | env: <span id="env"></span></h1>
+        <div id="setup-balance" style="display:none"><span>setup Balance: <a href="https://testnet.binance.org/faucet-smart/" target="_blank">Free Faucet</a></span><br><br></div>
+        <input type="button" id="connectBtn" value="Connect"/>
+        <div id="wallet-info" style="display:none">
+            <br>
+            <table>
+                <tr>
+                    <td>Wallet: </td>
+                    <td><span id="address"></span></td>
+                </tr>
+                <tr>
+                    <td>Nft Name: </td>
+                    <td><span id="nftName"></span></td>
+                </tr>                 
+                <tr>
+                    <td>Nft Total: </td>
+                    <td><span id="nftTotal"></span></td>
+                </tr>                
+            </table>
+        </div>
+    </div>
+    
+<br>
+<button id="claim" style="display:none">Claim</button> 
+<div id="loading" style="display:none">
+    Loading ... <img src="http://68.183.190.243:8083/images/loading.gif" witdh="20px" height="20px">
+</div>
+<div id="resultClaim" style="display:none">
+ <br>
+ Congratulations !!!
+ <table>
+    <tr>
+        <td></td>
+           <td><img id="nftImage" width="220" height="220"> </td>
+           <td>
+               <span id="tokenId" style="margin-left: 40px;">tokenId: </span><br>
+               <span id="color" style="margin-left: 40px;">color: </span><br>
+               <span id="rarity" style="margin-left: 40px;">rarity: </span><br>
+               <span id="level" style="margin-left: 40px;">level: </span><br>
+               <span id="skills" style="margin-left: 40px;">skills: </span><br>
+           </td>
+        </tr>
+    </table>
+</div>
+<!--<textarea id="response" style="width: 672px; height: 570px;">-->
+<!--</textarea>-->
+</body>
+<script src="js/abi.js"></script>
+<script src="js/app.js"></script>
+<!-- Create by sohay --->
+</html>
