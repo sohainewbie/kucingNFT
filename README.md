@@ -12,14 +12,14 @@ https://testnet.bscscan.com/token/0x7391dd5a7a021e3bf1bf26b472d1024088f0c109
 How to Test:
 1. Setup your Wallet with metamask,
 2. Create Network for testnet
-    Network Name: Smart Chain - Testnet
-    New RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545
-    Chain ID: 97
-    Currency Symbol: BNB
-    Block Explorer URL: https://testnet.bscscan.com
+    - Network Name: Smart Chain - Testnet
+    - New RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545
+    - Chain ID: 97
+    - Currency Symbol: BNB
+    - Block Explorer URL: https://testnet.bscscan.com
 3. Running server :
-   cd backend
-   python3 app.py
+   - cd backend
+   - python3 app.py
    - make sure you had setup the config.json
 
 
