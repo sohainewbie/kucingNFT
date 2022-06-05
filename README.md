@@ -21,6 +21,7 @@ How to Test:
    cd backend
    python3 app.py
    - make sure you had setup the config.json
+   - rename from config.json.example into config.json
 
 
 How to access: http://68.183.190.243:8083/

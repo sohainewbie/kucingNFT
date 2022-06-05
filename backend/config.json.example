@@ -9,7 +9,7 @@
     },
     "chain" : {
         "chainID" : 97,
-        "tokenURI" : "",
+        "tokenURI" : "0x7391dd5a7a021e3bf1bf26b472d1024088f0c109",
         "walletAddress" : "",
         "walletPrivateKey" : "",
         "rpcURL" : "https://data-seed-prebsc-1-s1.binance.org:8545/"
