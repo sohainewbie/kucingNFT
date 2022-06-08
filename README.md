@@ -24,7 +24,7 @@ How to Test:
    - rename from config.json.example into config.json
 
 
-How to access: http://68.183.190.243:8083/
+How to access: http://kucingliar.xyz:8083
 
 ```
 CREATE DATABASES kucingnft;
